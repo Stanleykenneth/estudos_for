@@ -1,0 +1,22 @@
+import java.util.Scanner;
+
+/*
+   05 - Faça um programa que peça para o usuário digitar 10 valores e some-os.* 
+ */
+public class Exercicio05 {
+	public static void main(String[] args) {
+		
+		Scanner ler = new Scanner(System.in);
+		
+		int num;
+		System.out.println("Digite o valor do primeiro número: ");
+		num = ler.nextInt();
+		System.out.println(num);
+		
+		for(num = 1; num <=10; num++) {
+			System.out.println(num);
+			num += 10;
+		}
+		ler.close();
+	}
+}
