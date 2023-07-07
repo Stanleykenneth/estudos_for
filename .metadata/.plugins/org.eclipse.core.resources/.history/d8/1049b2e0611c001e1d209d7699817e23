@@ -1,0 +1,29 @@
+import java.util.Scanner;
+
+/*
+   07 - Faça um programa que leia 10 inteiros prositivos,
+        ignorando não positivos e imprima a sua média.
+         
+*/
+public class Exercicio07 {
+
+	public static void main(String[] args) {
+
+		Scanner ler = new Scanner(System.in);
+		
+		int media = 0;
+		int num;
+		for (num  = 1; num <= 10; num++) {
+			System.out.println("Digite um número:");
+			num = ler.nextInt();
+			media += num;			
+		}
+		
+		if(num > 0) {
+			System.out.println("A média dos números positivos é: " + media / 10);
+		}
+		else {
+			System.out.println();
+		}
+	}
+}
