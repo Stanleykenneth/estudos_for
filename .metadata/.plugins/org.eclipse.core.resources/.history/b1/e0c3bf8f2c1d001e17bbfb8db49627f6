@@ -1,0 +1,26 @@
+import java.util.Scanner;
+
+/*
+   08 - Escreva um programa que leia 10 números e escreva o menor valor lido
+        e o maior valor lido.
+*/
+public class Exercicio08 {
+
+	public static void main(String[] args) {
+
+		Scanner ler = new Scanner(System.in);
+		
+		int num = 0;
+		int maiorValor = 0;
+		int menorValor = 0;
+		
+		for(num = 1; num <= 10; num++) {
+			System.out.println("Digite um número: ");
+			num
+		}
+		
+		ler.close();
+
+	}
+
+}
